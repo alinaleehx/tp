@@ -299,8 +299,8 @@ Action | Format, Examples
 **Help** | `help`
 **Add Task** | `addTask d/DESCRIPTION g/GROUP type/TYPE [date/DATE] [pty/PRIORITY] [recurring/RECURRING_FREQUENCY]`
 **Edit Task** | `editTask INDEX [d/DESCRIPTION] [g/GROUP] [type/TYPE] [date/DATE] [pty/PRIORITY] [recurring/RECURRING_FREQUENCY]`
-**Delete Task** | `deleteTask index`
-**Done Task** | `doneTask index`
+**Delete Task** | `deleteTask INDEX`<br> e.g., `deleteTask 3`
+**Done Task** | `doneTask INDEX`<br> e.g., `doneTask 3`
 **Sort Tasks** | `sortTasks p/PARAMETER o/ORDER` <br> e.g., `sortTasks p/desc o/1`
 **Filter Tasks** | `filterTasks FILTER_CRITERION` <br> e.g., `filterTasks g/CS2101`
 **List Tasks** | `listtasks [date/DATE]`
